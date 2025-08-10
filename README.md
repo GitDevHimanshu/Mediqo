@@ -1,6 +1,6 @@
 # Mediqo
 
-> A brief tagline or overview of your project (e.g., "AI-powered healthcare assistant for streamlined clinical workflows").
+>Mediqo is a MERN stack–based doctor appointment booking platform designed to streamline healthcare scheduling. It allows patients to browse available doctors by specialty, book appointments, and manage their schedules, while doctors can view and manage their bookings through a dedicated dashboard. The platform features authentication, responsive UI, and a user-friendly experience for both patients and healthcare providers.
 
 ##  Table of Contents
 - [About](#about)
@@ -16,23 +16,45 @@
 ## About
 Mediqo is [insert concise description of your project—what it does, its purpose, and what makes it unique].  
 For example:  
-> Mediqo is an AI-driven medical note-taking platform that captures consultations in real time, generates referrals and patient letters, and integrates smoothly into clinical workflows.
+> Mediqo is a MERN stack–based doctor appointment booking platform built to simplify healthcare scheduling and management.  
+It enables patients to search for doctors by specialty, view profiles, and book appointments seamlessly, while providing doctors with a dedicated dashboard to manage their schedules.  
+With features like secure authentication, responsive design, and a clean UI, Mediqo ensures an efficient and user-friendly experience for both patients and healthcare providers.
 
 ---
 
 ## Features
-- Real-time AI-powered documentation
-- Automatic generation of referral letters and patient education
-- Smart clinical insights and treatment suggestions
-- [Add any other features your project includes]
 
+- **User Authentication** – Secure login and registration for patients and doctors.
+- **Doctor Search & Filter** – Browse and filter doctors by specialty or name.
+- **Appointment Booking** – Book, reschedule, or cancel appointments with ease.
+- **Doctor Dashboard** – Manage upcoming appointments and availability.
+- **Responsive Design** – Optimized for desktop, tablet, and mobile devices.
+- **Real-time Updates** – Appointment status updates without page refresh.
+- **Secure Data Handling** – Protects user data and appointment details.
 ---
 
 ## Tech Stack
-- **Frontend**: [e.g. React, Vue, plain JavaScript]
-- **Backend**: [e.g. Node.js, Express, NestJS]
-- **Database**: [e.g. MongoDB, PostgreSQL]
-- **Other**: [e.g. Docker, TypeScript, ESLint, Prettier]
+
+**Frontend:**  
+- React.js  
+- Tailwind CSS  
+- Axios (for API requests)  
+
+**Backend:**  
+- Node.js  
+- Express.js  
+
+**Database:**  
+- MongoDB (with Mongoose ODM)  
+
+**Authentication & Security:**  
+- JSON Web Tokens (JWT)  
+- bcrypt.js (for password hashing)  
+
+**Other Tools & Libraries:**  
+- Cloudinary (for image storage)  
+- dotenv (for environment variables)  
+- Git & GitHub (version control)  
 
 ---
 
