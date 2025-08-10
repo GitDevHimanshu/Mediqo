@@ -1,6 +1,8 @@
 # Mediqo
 
 >Mediqo is a MERN stack–based doctor appointment booking platform designed to streamline healthcare scheduling. It allows patients to browse available doctors by specialty, book appointments, and manage their schedules, while doctors can view and manage their bookings through a dedicated dashboard. The platform features authentication, responsive UI, and a user-friendly experience for both patients and healthcare providers.
+>frontend live link:- https://mediqo-frontend.onrender.com/
+>admin panel live link:- https://mediqo-admin.onrender.com/
 
 ##  Table of Contents
 - [About](#about)
